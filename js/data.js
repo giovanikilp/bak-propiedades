@@ -1,0 +1,42 @@
+export const initialProperties = [
+  {
+    id: "1",
+    titulo: "Residencia de Lujo - Barrio Golf",
+    precio: 450000,
+    moneda: "USD",
+    tipo: "Casa",
+    operacion: "Venta",
+    ubicacion: "Corrientes, Capital",
+    sup_total: "450",
+    sup_cubierta: "320",
+    ambientes: 5,
+    dormitorios: 3,
+    banios: 4,
+    cochera: "Doble",
+    descripcion: "Espectacular propiedad con detalles de categoría.",
+    caracteristicas: ["Piscina", "Quincho", "Seguridad"],
+    imagenes: ["https://images.unsplash.com/photo-1600585154340-be6161a56a0c"],
+    estado: "Disponible",
+    destacada: true
+  },
+  {
+    id: "2",
+    titulo: "Departamento Moderno - Costanera",
+    precio: 125000,
+    moneda: "USD",
+    tipo: "Departamento",
+    operacion: "Venta",
+    ubicacion: "Corrientes, Centro",
+    sup_total: "85",
+    sup_cubierta: "80",
+    ambientes: 3,
+    dormitorios: 2,
+    banios: 2,
+    cochera: "Simple",
+    descripcion: "Vista plena al río Paraná.",
+    caracteristicas: ["Balcón", "Gimnasio"],
+    imagenes: ["https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"],
+    estado: "Disponible",
+    destacada: false
+  }
+];
