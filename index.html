@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BAK Propiedades - propiedades en venta y alquiler en Corrientes.">
+  <title>BAK Propiedades</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <div id="navbar-root"></div>
+  <main>
+    <div id="hero-root"></div>
+    <section class="container properties-section" id="propiedades">
+      <div class="section-heading">
+        <span class="section-kicker">Propiedades disponibles</span>
+        <h2>Listado inmobiliario</h2>
+        <p>Consultá por las unidades publicadas y recibí asesoramiento personalizado.</p>
+      </div>
+      <div id="properties-grid" class="grid"></div>
+    </section>
+    <div id="admin-root"></div>
+  </main>
+  <div id="footer-root"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>
